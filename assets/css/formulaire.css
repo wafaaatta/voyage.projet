@@ -1,0 +1,108 @@
+/* Reset CSS pour réinitialiser les styles par défaut */
+body, html, div, form, input, button, h2, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style général de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles pour la colonne de gauche */
+.dashboard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Styles pour le formulaire au centre */
+#add-trip-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#add-trip-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#add-trip-form input[type="text"],
+#add-trip-form input[type="date"],
+#add-trip-form input[type="file"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#add-trip-form button[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#add-trip-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Styles pour la colonne de droite */
+#right-panel {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+#logout {
+  width: 100%;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#logout:hover {
+  background-color: #d32f2f;
+}

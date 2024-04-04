@@ -1,0 +1,76 @@
+/* Style général pour la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/herbe.jpeg'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin de votre image de fond */
+    background-size: cover; /* Ajuste la taille de l'image de fond pour remplir l'écran */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px; /* Marge extérieure pour la mise en page */
+
+}
+
+.dashboard, .trip-container, #right-panel {
+    flex: 1 4 1;
+    
+}
+
+/* Styles spécifiques pour la première colonne */
+.dashboard {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.profile img {
+    width: 100px; /* Ajustez la taille de l'image du profil */
+    border-radius: 50%; /* Pour rendre l'image du profil ronde */
+}
+
+.profile h2 {
+    margin-top: 10px;
+}
+
+/* Styles spécifiques pour la deuxième colonne */
+.trip-container {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.trip {
+    margin-bottom: 20px; /* Espacement entre les voyages */
+    border: 1px solid #ccc; /* Bordure autour des voyages */
+    padding: 10px;
+}
+
+.trip h3 {
+    margin-top: 0;
+}
+
+/* Styles spécifiques pour la troisième colonne */
+#right-panel {
+    background-color: #d0d0d0;
+    padding: 20px;
+}
+
+.logo img {
+    width: 150px; /* Ajustez la taille du logo */
+}
+
+#logout {
+    background-color: #ff0000; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement à l'intérieur du bouton */
+    border: none; /* Suppression de la bordure */
+    cursor: pointer; /* Curseur de la souris */
+    font-size: 16px; /* Taille du texte */
+}
+
+#logout:hover {
+    background-color: #cc0000; /* Couleur de fond du bouton au survol */
+}
